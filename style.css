@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(48, 111, 21, 0.748);
+    position: sticky;top: 0px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: palegoldenrod;
+}
+
+
+
+
+
+
+
+/* Home */
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+#Home::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('./w2.jpg') no-repeat center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid white ; */
+    align-items: center;
+    position: absolute;
+    top:30%;
+    right: 10%;
+}
+
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+
+
+.btn{
+    padding: 10px 35px;
+    font-size: 3rem;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+#about{
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+padding: 20px;
+margin-bottom:50px ;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+
+
+.gallery{
+    
+    justify-content: space-between;
+    margin-left: 100px;
+    
+   
+}
+
+.gallery,img:hover{
+    box-shadow: 3px 4px 5px rgb(43, 65, 6);
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+.row{
+    display: flex;
+}
+.box{
+    width: 500px;
+    height: 800px;
+    border: 2px ridge rgb(85, 32, 134);
+    margin: 20px;
+    background: linear-gradient(to top,rgb(229, 36, 97)50%,rgb(23, 151, 121)50%);
+    background-size: 200% 200%;
+    transition: all 0.8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(223, 37, 37);
+
+}
+.box img{
+    width: 100%;
+}
+
+.box h4{
+    text-align: center;
+    color: brown;
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+.button{
+    color: rgb(13, 69, 119);
+    background-color: black;
+}
+.cv{
+    background-color: rgba(137, 43, 226, 0.74);
+    padding: 10px;
+    color: azure;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 1200px;
+   
+
+}
+
+footer{
+    background-color: rgba(255, 182, 193, 0.59);
+    color:rgba(154, 40, 40, 0.912);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
